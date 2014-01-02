@@ -132,26 +132,31 @@ int hurricaneCategory = 10;
 
 switch (hurricaneCategory) {
             case 1:
-                NSLog(@"There appears to be a Category 1 Hurricane headed your direction. This indicates winds in excess of 74 MPH. Very dangerous winds will produce some damage: Well-constructed frame homes could have damage to roof, shingles, vinyl siding and gutters. Large branches of trees will snap and shallowly rooted trees may be toppled. Extensive damage to power lines and poles likely will result in power outages that could last a few to several days.");
-                break;
-				
-            case 2:
-                NSLog(@"There appears to be a Category 2 Hurricane headed your direction. This indicates winds in excess of 95 MPH. Extremely dangerous winds will cause extensive damage: Well-constructed frame homes could sustain major roof and siding damage. Many shallowly rooted trees will be snapped or uprooted and block numerous roads. Near-total power loss is expected with outages that could last from several days to weeks.");
-            
-			case 3:
+                NSLog(@"There appears to be a Category 1 Hurricane headed your
+				direction. This indicates winds in excess of 74 MPH. Very
+				dangerous winds will produce some damage: Well-constructed
+				frame homes could have damage to roof, shingles, vinyl
+				siding and gutters. Large branches of trees will snap and
+				shallowly rooted trees may be toppled. Extensive damage to
+				power lines and poles likely will result in power outages
+				that could last a few to several days.");
+            break;
+
+   		 	case 2:
+  		  		NSLog(@"There appears to be a Category 2 Hurricane headed your direction. This indicates winds in excess of 95 MPH. Extremely dangerous winds will cause extensive damage: Well-constructed frame homes could sustain major roof and siding damage. Many shallowly rooted trees will be snapped or uprooted and block numerous roads. Near-total power loss is expected with outages that could last from several days to weeks.");
+   				break;
+case 3:
                 NSLog(@"There appears to be a Category 3 Hurricane headed your direction. This indicates winds in excess of 110 MPH. Devastating damage will occur: Well-built framed homes may incur major damage or removal of roof decking and gable ends. Many trees will be snapped or uprooted, blocking numerous roads. Electricity and water will be unavailable for several days to weeks after the storm passes.");
-            
+				break;
 			case 4:
                 NSLog(@"There appears to be a Category 4 Hurricane headed your direction. This indicates winds in excess of 130 MPH. Catastrophic damage will occur: Well-built framed homes can sustain severe damage with loss of most of the roof structure and/or some exterior walls. Most trees will be snapped or uprooted and power poles downed. Fallen trees and power poles will isolate residential areas. Power outages will last weeks to possibly months. Most of the area will be uninhabitable for weeks or months.");
-            
+				break;
 			case 5:
                 NSLog(@"There appears to be a Category 5 Hurricane headed your direction. This indicates winds in excess of 156 MPH. Catastrophic damage will occur: A high percentage of framed homes will be destroyed, with total roof failure and wall collapse. Fallen trees and power poles will isolate residential areas. Power outages will last for weeks to possibly months. Most of the area will be uninhabitable for weeks or months.");
-               
-            
+				break;
 			default:
-                
 				NSLog(@"I don't know what's coming at you, but it doesn't appear to be a Hurricane. I suggest running.");
-                break;
+              	break;
         }
 
 
